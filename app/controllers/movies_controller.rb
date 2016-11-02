@@ -9,7 +9,7 @@ class MoviesController < ApplicationController
   end
 
   def new_form
-    render("movies/mew_form.html.erb")
+    render("movies/new_form.html.erb")
   end
 
   def create_row

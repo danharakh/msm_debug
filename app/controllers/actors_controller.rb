@@ -27,6 +27,7 @@ class ActorsController < ApplicationController
   end
 
   def update_row
+
     @actor = Actor.find(params[:id])
 
     @actor.dob = params[:dob]
